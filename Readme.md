@@ -1,8 +1,8 @@
-#Country Service Coding Exercise
+# Country Service Coding Exercise
 
 This directory contains the source code for the Country service coding exercise.
 
-##How to run the code
+## How to run the code
 
 Run the server (in the project root):
 
@@ -29,7 +29,7 @@ Run the tests (in the project root):
 mvnw test
 ```
 
-##Notes
+## Notes
 
 The single country endpoint can be queried with incomplete country names (e.g. "nl"), it will always 
 return one result country but if the query is just a few characters, the result might not be what you expect.
@@ -42,7 +42,7 @@ All test are located in the CountryServiceApplicationTests.java file
 
 
 
-###My setup just in case
+### My setup just in case
 Used Java version: Java 11
 
 JDK version: 1.8.0_282
